@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{contact} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+#RewriteRule ^contact$ contact.html [NC]
+#RewriteRule ^index$ index.html [NC]
+#RewriteRule ^gallery$ gallery.html [NC]
